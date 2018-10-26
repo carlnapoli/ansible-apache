@@ -1,11 +1,11 @@
 ---
 
-- include_tasks: install.yml
+- include_tasks: "./tasks/install.yml"
   tags:
     - apache
     - apache_install
 
-- include_tasks: config.yml
+- include_tasks: "./tasks/config.yml"
   tags:
     - apache
     - apache_config
